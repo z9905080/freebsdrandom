@@ -141,4 +141,6 @@ func Shuffle(n int, swap func(i, j int)) error {
 		j,_ := Intn(i + 1)
 		swap(i, j)
 	}
+
+	return nil
 }
